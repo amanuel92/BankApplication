@@ -49,7 +49,7 @@ public class BankApp {
         //transfer $10 from David saving account to Thomas checking account
         Bank.Transfer(10, Bank.findCustomerByName("David Matthew").getCustomerAccount("saving"), Bank.findCustomerByName("Thomas Jefferson").getCustomerAccount("checking"));
         
-        
+        //look at bank transactions 
         Bank.showTransactions();
      
     }
